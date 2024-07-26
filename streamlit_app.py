@@ -352,18 +352,15 @@ if st.session_state.dados:
         file_name='especialidades_cadastradas.csv',
         mime='text/csv'
     )
-
 # Botões para limpar tabela e formulário
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 
 with col1:
     if st.button('Limpar Tabela'):
         st.session_state.dados = []  # Limpa os dados do estado
-
-with col2:
         st.success('Tabela limpa com sucesso!')
         st.experimental_rerun()  # Atualiza a página para refletir as mudanças
 
-with col3:
+with col2:
     if st.button('Limpar Formulário'):
         st.experimental_rerun()  # Limpa todos os campos do formulário e reinicia a aplicação
