@@ -1,8 +1,7 @@
-# :earth_americas: GDP dashboard template
+# :earth_americas: Parametrizador de inserções de especialidades.
 
-A simple Streamlit app showing the GDP of different countries in the world.
+Supondo que você possui um problema em cadastrar, configurar e realizar manutenções em registros extensos utilizando planilhas podrões para importar o arquivo corrigido, desenvolvemos a ideia onde, através de um formulário os dados seriam armazenados e transformados no padrão esetabelecido pelo cliente. Dessa forma, observamos a possibilidade de um ganho operacional consideravel.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
 
 ### How to run it on your own machine
 
